@@ -16,9 +16,13 @@ The zip archives are created by copying `*.sp` files in the plugin's base folder
 
 You can find an example of the folder structure used [here](structure.md) and installation instructions [here](install.md).  Note: the specified release directory should not exist initially - it will be created by the script.
 
-Each plugin should be in its own folder, and that folder should have the same name as the `.sp` file you wish to be compiled (without the `.sp` extension of course).  Otherwise it wouldn't know which file to compile.
+Each plugin should be in its own folder, and that folder should have the same name as the `.sp` file you wish to be compiled (without the file extension).  Otherwise it wouldn't know which file to compile.
 
 The script will also look in that `.sp` file for a version number.  If you do not wish to use the version from the `.sp` file, or you do not have any `.sp` files in your folder (like when releasing just `.inc` files), you can define a `version.txt` file with the sole contents of the file being the version (nothing else in the file).
+
+## Installation
+
+See [installation](install.md).
 
 ## Usage
 
@@ -47,8 +51,4 @@ The following arguments can modify the script's behavior:
 
 Personally I also define a shell script that calls the python script and copies my plugins' files to the `addons/sourcemod/scripting` folder (copying files in the `include` directory to the `addons/sourcemod/scripting/include` folder.
 
-For those you Linux you can find my bash script [here](copy.md).
-
-## Installation
-
-See [installation](install.md).
+Linux users can find the bash script I use [here](copy.md).
