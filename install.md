@@ -1,5 +1,7 @@
 # Installation
 
+Note: this requires python to be installed on your system.  See the [Python Wiki](https://wiki.python.org/moin/BeginnersGuide/Download) for instructions on installing python.
+
 1. [Install](https://github.com/cli/cli#installation) the `gh` command. Windows users may want to see the [Releases](https://github.com/cli/cli/releases/) page.
 
 2. [Authenticate](https://cli.github.com/manual/gh_auth_login) with your GitHub account
