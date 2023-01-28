@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./copy
+python scripts/release.py "$@"
