@@ -1,6 +1,6 @@
-# SourceMod Workflow
+# SourceMod Release Script
 
-A Python script to help with plugin releases.  This is especially helpful for plugins that define include files.  It is intended to be used with GitHub's [`gh`](https://cli.github.com/) command, but can be used to only create zip archives instead of also uploading them to GitHub as releases.
+This is a Python script to help with plugin releases.  This is especially helpful for plugins that define include files.  It is intended to be used with GitHub's [`gh`](https://cli.github.com/) command, but can also be used to only create zip archives instead of also uploading them to GitHub as releases.
 
 ## Why?
 
@@ -19,8 +19,6 @@ You can find an example of the folder structure used [here](structure.md) and in
 Each plugin should be in its own folder, and that folder should have the same name as the `.sp` file you wish to be compiled (without the `.sp` extension of course).  Otherwise it wouldn't know which file to compile.
 
 The script will also look in that `.sp` file for a version number.  If you do not wish to use the version from the `.sp` file, or you do not have any `.sp` files in your folder (like when releasing just `.inc` files), you can define a `version.txt` file with the sole contents of the file being the version (nothing else in the file).
-
-
 
 ## Usage
 
@@ -44,10 +42,6 @@ The following arguments can modify the script's behavior:
 -s --nosummary suppress the updated count at the end
 -q --quiet     only show errors/warnings
 ```
-
-
-
-
 
 #### Optional Shell Script
 
