@@ -8,7 +8,7 @@ Note: this requires python to be installed on your system.  See the [Python Wiki
 
 3. Choose a folder to store your plugins (separate from your 'scripting' folder). Example: `$HOME/my_plugins`. This is where all of your plugins will be kept.
 
-4. Copy the python script to that folder (or to a `scripts` folder within it)
+4. Copy the python scripts to that folder (or to a `scripts` folder within it)
 
 5. Edit `config.py`
    
